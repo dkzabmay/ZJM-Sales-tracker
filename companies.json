@@ -1,0 +1,32 @@
+{
+  "pharma": [
+    "Pfizer", "Merck", "Johnson & Johnson", "Janssen", "AbbVie", "Bristol Myers Squibb",
+    "Eli Lilly", "Novartis", "AstraZeneca", "GSK", "GlaxoSmithKline", "Sanofi", "Amgen",
+    "Gilead Sciences", "Boehringer Ingelheim", "Takeda", "Novo Nordisk", "Bayer", "Teva",
+    "Viatris", "Organon", "Regeneron", "Vertex", "Biogen", "Jazz Pharmaceuticals",
+    "Sun Pharma", "Otsuka", "UCB", "Ipsen", "Mallinckrodt", "Endo", "Horizon Therapeutics",
+    "IQVIA", "Syneos Health", "EVERSANA", "Inizio", "Ashfield", "Publicis Health",
+    "Amplity Health", "MedPro", "Galderma", "Sumitomo", "Alkermes", "Supernus", "Pharmaceutical"
+  ],
+  "sporting": [
+    "Tampa Bay Buccaneers", "Tampa Bay Lightning", "Tampa Bay Rays", "Tampa Bay Rowdies",
+    "Tampa Bay Sun", "USF Athletics", "ASM Global", "Amalie Arena", "Tampa Sports Authority",
+    "Raymond James Stadium", "Vinik Sports Group", "Topgolf", "Legends", "Aramark Sports",
+    "Spectra", "Oak View Group", "Orlando Magic", "Orlando City SC", "Florida Panthers",
+    "Miami Heat", "Jacksonville Jaguars", "Miami Marlins", "Inter Miami",
+    "BSN Sports", "Dick's Sporting Goods", "Academy Sports", "Wilson Sporting Goods",
+    "Rawlings", "Play It Again Sports", "SeatGeek", "Ticketmaster", "Live Nation",
+    "StubHub", "Learfield", "Playfly Sports", "Fanatics", "Daktronics", "Sodexo Live",
+    "Levy Restaurants", "Delaware North", "AEG", "Comcast Spectacor", "DICK'S", "Rays"
+  ],
+  "device": [
+    "Medtronic", "Stryker", "Boston Scientific", "Abbott", "Johnson & Johnson MedTech",
+    "DePuy Synthes", "Ethicon", "Baxter", "Becton Dickinson", "BD", "GE HealthCare",
+    "Siemens Healthineers", "Philips Healthcare", "Zimmer Biomet", "Edwards Lifesciences",
+    "Intuitive Surgical", "Smith+Nephew", "Olympus", "Hologic", "ResMed", "Dexcom",
+    "Insulet", "Cardinal Health", "Cook Medical", "Teleflex", "Integra LifeSciences",
+    "Globus Medical", "NuVasive", "Terumo", "Steris", "Hillrom", "Masimo", "Penumbra",
+    "Merit Medical", "CONMED", "Bausch + Lomb", "Coloplast", "Wright Medical", "Cardinal",
+    "Karl Storz", "Arthrex", "Nevro", "Avanos", "Haemonetics", "Medical Device"
+  ]
+}

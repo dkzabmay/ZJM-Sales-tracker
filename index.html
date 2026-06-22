@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tampa Bay Sales Launch Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16202A; --slate:#5A6675; --faint:#8A95A1; --page:#F1F4F7;
+    --surface:#FFFFFF; --border:#E2E7EC; --pharma:#0E7C86; --sporting:#E0612F;
+    --device:#5B5BD6; --amber:#F59E0B;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--page);color:var(--ink);
+    font-family:'Inter',ui-sans-serif,system-ui,sans-serif}
+  .disp{font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+  header{background:var(--ink);color:#fff}
+  .eyebrow{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#9FB0BE}
+  h1{font-size:28px;font-weight:700;margin:4px 0 0}
+  .tagline{color:#B9C6D0;margin:6px 0 16px;font-size:14px}
+  .stats{display:flex;gap:22px;flex-wrap:wrap;padding-bottom:22px}
+  .stat .n{font-size:30px;font-weight:700;line-height:1;color:#fff}
+  .stat .l{font-size:12px;color:#9FB0BE;margin-top:4px}
+  .banner{background:#FFF6E6;border-bottom:1px solid #F0E0BC;color:#7A5B12;font-size:13px}
+  .banner .wrap{padding:9px 18px}
+  .controls{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:flex-start;padding-top:20px}
+  .label{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;
+    letter-spacing:1px;text-transform:uppercase;color:var(--faint)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .chip{padding:7px 13px;border-radius:999px;font-size:13px;font-weight:600;cursor:pointer;
+    border:1px solid var(--border);background:var(--surface);color:var(--slate)}
+  .chip.role{border-radius:8px;font-weight:500}
+  .chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .tools{display:flex;gap:10px;flex-wrap:wrap}
+  .tool{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:10px;
+    font-size:13.5px;font-weight:600;cursor:pointer;border:1px solid var(--border);
+    background:var(--surface);color:var(--ink)}
+  .tool.done{border-color:var(--pharma);background:#EAF6F7;color:var(--pharma)}
+  .list{display:grid;gap:14px;padding:20px 0 40px}
+  .group{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden}
+  .ghead{display:flex;align-items:center;gap:9px;padding:12px 16px;border-bottom:1px solid var(--border)}
+  .dot{width:9px;height:9px;border-radius:3px}
+  .ghead .co{font-weight:600;font-size:15px}
+  .ghead .ind{font-size:12px;color:var(--faint)}
+  .job{display:flex;align-items:center;gap:12px;padding:13px 16px;border-left:3px solid var(--ink);
+    transition:box-shadow .15s,transform .15s}
+  .job + .job{border-top:1px solid var(--page)}
+  .job:hover{box-shadow:0 6px 20px rgba(22,32,42,.08)}
+  .job .t{font-weight:600;font-size:14.5px}
+  .meta{display:flex;gap:14px;margin-top:4px;color:var(--slate);font-size:12.5px;flex-wrap:wrap}
+  .meta .cat{color:var(--faint)}
+  .new{font-size:10.5px;font-weight:700;letter-spacing:.5px;color:#fff;background:var(--amber);
+    padding:2px 6px;border-radius:5px;animation:pulse 1.8s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+  @media(prefers-reduced-motion:reduce){.new{animation:none}}
+  .pen{border:1px solid var(--border);background:var(--surface);color:var(--slate);
+    border-radius:8px;padding:7px 10px;cursor:pointer;font-size:13px}
+  .apply{border-radius:8px;padding:8px 13px;font-size:13px;font-weight:600;color:#fff;
+    text-decoration:none;white-space:nowrap}
+  .empty{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+    padding:28px;text-align:center;color:var(--slate)}
+  .overlay{position:fixed;inset:0;background:rgba(22,32,42,.45);display:flex;
+    align-items:flex-end;justify-content:center;z-index:50}
+  .sheet{background:var(--surface);width:100%;max-width:560px;border-radius:18px 18px 0 0;
+    padding:20px 20px 26px;max-height:88vh;overflow-y:auto}
+  .sheet h2{font-size:19px;font-weight:700;margin:0}
+  .sheet .x{border:none;background:none;cursor:pointer;color:var(--slate);font-size:22px;line-height:1}
+  .sheet .row{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+  input,textarea{width:100%;border:1px solid var(--border);border-radius:8px;padding:10px 12px;
+    font-size:14px;font-family:inherit}
+  textarea{resize:vertical;line-height:1.5}
+  .flabel{font-size:12px;font-weight:600;color:var(--slate);display:block;margin:10px 0 6px}
+  .btn{background:var(--ink);color:#fff;border:none;border-radius:10px;padding:11px 18px;
+    font-size:14px;font-weight:600;cursor:pointer;margin-top:14px}
+  .btn.ghost{background:var(--surface);color:var(--slate);border:1px solid var(--border)}
+  .note{font-size:12px;color:var(--faint);margin-bottom:0}
+  @media(max-width:560px){.stat .n{font-size:26px}h1{font-size:24px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="padding-top:22px">
+    <div class="eyebrow disp">Tampa &middot; St. Petersburg</div>
+    <h1 class="disp">Sales Launch Tracker</h1>
+    <p class="tagline">Entry-level sales openings, refreshed every morning.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<div class="banner"><div class="wrap" id="updated">Loading the latest openings&hellip;</div></div>
+
+<div class="wrap">
+  <div class="controls">
+    <div style="min-width:240px">
+      <div class="label">Industry</div>
+      <div class="chips" id="industries"></div>
+      <div style="margin-top:16px" class="label">Role type</div>
+      <div class="chips" id="roles"></div>
+    </div>
+    <div class="tools">
+      <button class="tool" id="resumeBtn">Add resume</button>
+      <button class="tool" id="coverBtn">Cover letters</button>
+    </div>
+  </div>
+  <div class="list" id="list"></div>
+</div>
+
+<div id="modal"></div>
+
+<script>
+const PALETTE = {pharma:"#0E7C86", sporting:"#E0612F", device:"#5B5BD6"};
+const INDUSTRIES = [
+  {id:"all", label:"All industries"},
+  {id:"pharma", label:"Pharmaceutical"},
+  {id:"sporting", label:"Sporting / Teams"},
+  {id:"device", label:"Medical Device"},
+];
+const CATEGORIES = [
+  {id:"entry", label:"Entry sales"},
+  {id:"account", label:"Account maintenance"},
+  {id:"training", label:"Training program"},
+];
+const indLabel = id => (INDUSTRIES.find(i=>i.id===id)||{}).label || "";
+const catLabel = id => (CATEGORIES.find(c=>c.id===id)||{}).label || "";
+const indColor = id => PALETTE[id] || "#16202A";
+const agoText = d => d===0?"Today":d===1?"Yesterday":d+" days ago";
+
+let JOBS = [];
+let industry = "all";
+let roles = new Set();
+let resume = localStorage.getItem("st_resume") || "";
+let applicant = localStorage.getItem("st_name") || "";
+let coverJob = null;
+
+async function load(){
+  try{
+    const res = await fetch("jobs.json?ts=" + Date.now());
+    const data = await res.json();
+    JOBS = (data.jobs || []).filter(j => j.days_ago <= 14);
+    document.getElementById("updated").textContent =
+      "Updated " + (data.updated || "recently") + " \u00b7 " + JOBS.length + " openings in the last 14 days.";
+  }catch(e){
+    document.getElementById("updated").textContent =
+      "Could not load openings right now. They refresh automatically each morning \u2014 try again shortly.";
+  }
+  renderControls();
+  render();
+}
+
+function filtered(){
+  return JOBS
+    .filter(j => industry==="all" || j.industry===industry)
+    .filter(j => roles.size===0 || roles.has(j.category))
+    .sort((a,b)=>a.days_ago-b.days_ago);
+}
+
+function renderControls(){
+  const ind = document.getElementById("industries");
+  ind.innerHTML = "";
+  INDUSTRIES.forEach(i=>{
+    const b = document.createElement("button");
+    b.className = "chip" + (industry===i.id?" on":"");
+    b.textContent = i.label;
+    if(industry===i.id && i.id!=="all"){ b.style.background=indColor(i.id); b.style.borderColor=indColor(i.id); }
+    b.onclick = ()=>{ industry=i.id; renderControls(); render(); };
+    ind.appendChild(b);
+  });
+  const rl = document.getElementById("roles");
+  rl.innerHTML = "";
+  CATEGORIES.forEach(c=>{
+    const b = document.createElement("button");
+    b.className = "chip role" + (roles.has(c.id)?" on":"");
+    b.textContent = c.label;
+    b.onclick = ()=>{ roles.has(c.id)?roles.delete(c.id):roles.add(c.id); renderControls(); render(); };
+    rl.appendChild(b);
+  });
+  const rb = document.getElementById("resumeBtn");
+  rb.textContent = resume ? "Resume saved" : "Add resume";
+  rb.className = "tool" + (resume?" done":"");
+}
+
+function render(){
+  const list = document.getElementById("list");
+  const jobs = filtered();
+  renderStats(jobs);
+  list.innerHTML = "";
+  if(jobs.length===0){
+    list.innerHTML = '<div class="empty">No openings match these filters. Try clearing a role type or switching to All industries.</div>';
+    return;
+  }
+  const groups = {};
+  jobs.forEach(j => { (groups[j.company] = groups[j.company] || []).push(j); });
+  Object.keys(groups).forEach(co=>{
+    const g = groups[co];
+    const wrap = document.createElement("div");
+    wrap.className = "group";
+    const head = document.createElement("div");
+    head.className = "ghead";
+    head.innerHTML = '<span class="dot" style="background:'+indColor(g[0].industry)+'"></span>'+
+      '<span class="co disp">'+esc(co)+'</span><span class="ind">\u00b7 '+indLabel(g[0].industry)+'</span>';
+    wrap.appendChild(head);
+    g.forEach(j=>{
+      const row = document.createElement("div");
+      row.className = "job";
+      row.style.borderLeftColor = indColor(j.industry);
+      const newBadge = j.days_ago<=1 ? '<span class="new">NEW</span>' : '';
+      row.innerHTML =
+        '<div style="flex:1;min-width:0">'+
+          '<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">'+
+            '<span class="t">'+esc(j.title)+'</span>'+newBadge+'</div>'+
+          '<div class="meta"><span>\uD83D\uDCCD '+esc(j.city)+'</span>'+
+            '<span>\u23F1 '+agoText(j.days_ago)+'</span>'+
+            '<span class="cat">'+catLabel(j.category)+'</span></div>'+
+        '</div>';
+      const pen = document.createElement("button");
+      pen.className = "pen"; pen.textContent = "\u270E";
+      pen.title = "Draft cover letter";
+      pen.onclick = ()=>openCover(j);
+      const a = document.createElement("a");
+      a.className = "apply"; a.href = j.url || "#"; a.target = "_blank"; a.rel="noreferrer";
+      a.style.background = indColor(j.industry); a.textContent = "Apply \u2197";
+      row.appendChild(pen); row.appendChild(a);
+      wrap.appendChild(row);
+    });
+    list.appendChild(wrap);
+  });
+}
+
+function renderStats(jobs){
+  const newToday = jobs.filter(j=>j.days_ago<=1).length;
+  const companies = new Set(jobs.map(j=>j.company)).size;
+  document.getElementById("stats").innerHTML =
+    stat(jobs.length,"openings \u00b7 last 14 days")+
+    stat(newToday,"new since yesterday","#F59E0B")+
+    stat(companies,"companies hiring");
+}
+function stat(n,l,color){
+  return '<div class="stat"><div class="n disp"'+(color?' style="color:'+color+'"':'')+'>'+n+'</div>'+
+    '<div class="l">'+l+'</div></div>';
+}
+
+function buildLetter(j){
+  const who = (applicant||"").trim() || "[Your name]";
+  return "Dear "+j.company+" Hiring Team,\n\n"+
+    "I'm writing to apply for the "+j.title+" position in "+j.city+". Over the past two years I've built a "+
+    "track record in B2B sales, and I'm eager to bring that experience into "+indLabel(j.industry).toLowerCase()+".\n\n"+
+    "While my background is in a different industry, the fundamentals carry over directly: building relationships, "+
+    "managing a pipeline, and closing through persistence and follow-through. I'm drawn to "+j.company+" specifically "+
+    "because it's a chance to grow into a specialized field with real coaching and structure.\n\n"+
+    "I'd welcome the opportunity to discuss how my sales experience would translate to this role. "+
+    "Thank you for your consideration.\n\nSincerely,\n"+who;
+}
+
+function openCover(j){
+  coverJob = j;
+  const m = document.getElementById("modal");
+  m.innerHTML =
+    '<div class="overlay" id="ov"><div class="sheet" id="sheet">'+
+      '<div class="row"><h2 class="disp">Cover letter draft</h2><button class="x" id="cx">\u00d7</button></div>'+
+      '<div style="font-size:13px;color:var(--slate);margin-bottom:10px">'+esc(j.title)+' \u00b7 <strong>'+esc(j.company)+'</strong></div>'+
+      '<textarea id="letter" rows="14"></textarea>'+
+      '<div style="display:flex;gap:10px"><button class="btn" id="copy">Copy text</button>'+
+      '<button class="btn ghost" id="reset">Reset draft</button></div>'+
+      '<p class="note">This is a template draft. He can edit it here, or generate a fully AI-written version in Claude.</p>'+
+    '</div></div>';
+  document.getElementById("letter").value = buildLetter(j);
+  document.getElementById("cx").onclick = closeModal;
+  document.getElementById("ov").onclick = e=>{ if(e.target.id==="ov") closeModal(); };
+  document.getElementById("reset").onclick = ()=>{ document.getElementById("letter").value = buildLetter(j); };
+  document.getElementById("copy").onclick = e=>{
+    navigator.clipboard && navigator.clipboard.writeText(document.getElementById("letter").value);
+    e.target.textContent = "Copied"; setTimeout(()=>e.target.textContent="Copy text",1700);
+  };
+}
+
+function openResume(){
+  const m = document.getElementById("modal");
+  m.innerHTML =
+    '<div class="overlay" id="ov"><div class="sheet">'+
+      '<div class="row"><h2 class="disp">His resume</h2><button class="x" id="cx">\u00d7</button></div>'+
+      '<p style="color:var(--slate);font-size:13.5px;margin-top:0">Paste his resume once. The cover-letter drafts pull his name from here, and it stays saved on this device for next time.</p>'+
+      '<label class="flabel">Name</label><input id="nm" placeholder="e.g. Jordan Reyes">'+
+      '<label class="flabel">Resume text</label><textarea id="rs" rows="9" placeholder="Paste resume here\u2026"></textarea>'+
+      '<button class="btn" id="save">Save</button>'+
+    '</div></div>';
+  document.getElementById("nm").value = applicant;
+  document.getElementById("rs").value = resume;
+  document.getElementById("cx").onclick = closeModal;
+  document.getElementById("ov").onclick = e=>{ if(e.target.id==="ov") closeModal(); };
+  document.getElementById("save").onclick = ()=>{
+    applicant = document.getElementById("nm").value;
+    resume = document.getElementById("rs").value;
+    localStorage.setItem("st_name", applicant);
+    localStorage.setItem("st_resume", resume);
+    closeModal(); renderControls();
+  };
+}
+
+function closeModal(){ document.getElementById("modal").innerHTML = ""; }
+function esc(s){ return String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+document.getElementById("resumeBtn").onclick = openResume;
+document.getElementById("coverBtn").onclick = ()=>{ const f=filtered(); if(f.length) openCover(f[0]); };
+load();
+</script>
+</body>
+</html>
