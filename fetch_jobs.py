@@ -152,6 +152,7 @@ def fetch_live():
                     company = (r.get("company", {}) or {}).get("display_name", "Unknown")
                     city = (r.get("location", {}) or {}).get("display_name", "Tampa Bay, FL")
                     ind = company_industry(company, companies) or industry
+                    search_q = urllib.parse.quote(f"{company} {title} {city} apply")
                     jobs.append({
                         "title": title,
                         "company": company,
@@ -159,7 +160,8 @@ def fetch_live():
                         "industry": ind,
                         "category": classify_category(title),
                         "days_ago": days_since(r.get("created", "")),
-                        "url": r.get("redirect_url", ""),
+                        "url": f"https://www.google.com/search?q={search_q}",
+                        "source_url": r.get("redirect_url", ""),
                     })
 
     jobs.sort(key=lambda j: j["days_ago"])
