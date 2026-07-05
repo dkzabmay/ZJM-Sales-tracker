@@ -1,26 +1,26 @@
 {
-  "updated": "2026-07-04 14:54 UTC",
+  "updated": "2026-07-05 15:49 UTC",
   "count": 7,
   "jobs": [
-    {
-      "title": "Medical Gas Project & Estimating Specialist",
-      "company": "MEDICAL TECHNOLOGY ASSOCIATES LLC",
-      "city": "Pinellas Park, Pinellas County",
-      "industry": "pharma",
-      "category": "entry",
-      "days_ago": 1,
-      "url": "https://www.google.com/search?q=MEDICAL%20TECHNOLOGY%20ASSOCIATES%20LLC%20Medical%20Gas%20Project%20%26%20Estimating%20Specialist%20Pinellas%20Park%2C%20Pinellas%20County%20apply",
-      "source_url": "https://www.adzuna.com/land/ad/5787019602?se=PmujNbh38RGw99DSBwaIyw&utm_medium=api&utm_source=5f448b2f&v=12EB011A3023475F5BD5B163AF85931C08166C36"
-    },
     {
       "title": "Medical Sales Representative",
       "company": "Wendwell Health Advisors",
       "city": "Lake Magdalene, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 1,
+      "days_ago": 2,
       "url": "https://www.google.com/search?q=Wendwell%20Health%20Advisors%20Medical%20Sales%20Representative%20Lake%20Magdalene%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5786332851?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Direct Sales Representative - Lakeland, FL",
+      "company": "Abbott Laboratories",
+      "city": "Gibsonia, Polk County",
+      "industry": "device",
+      "category": "entry",
+      "days_ago": 3,
+      "url": "https://www.google.com/search?q=Abbott%20Laboratories%20Direct%20Sales%20Representative%20-%20Lakeland%2C%20FL%20Gibsonia%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5784708441?utm_medium=api&utm_source=5f448b2f"
     },
     {
       "title": "Medical Sales Representative",
@@ -28,7 +28,7 @@
       "city": "Egypt Lake-Leto, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 3,
+      "days_ago": 4,
       "url": "https://www.google.com/search?q=Rehab%20Medical%20Medical%20Sales%20Representative%20Egypt%20Lake-Leto%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5782810338?utm_medium=api&utm_source=5f448b2f"
     },
@@ -38,7 +38,7 @@
       "city": "Largo, Pinellas County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 3,
+      "days_ago": 4,
       "url": "https://www.google.com/search?q=Audi%20Clearwater%20Automotive%20Sales%20-%20Luxury%20Brand%20Experience%20Largo%2C%20Pinellas%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5782804432?utm_medium=api&utm_source=5f448b2f"
     },
@@ -48,7 +48,7 @@
       "city": "Sarasota, Manatee County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 11,
+      "days_ago": 12,
       "url": "https://www.google.com/search?q=Prism%20Biotech%20Territory%20Sales%20Rep%20%E2%80%93%20BioPharma%20Sarasota%2C%20Manatee%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5772938915?utm_medium=api&utm_source=5f448b2f"
     },
@@ -58,7 +58,7 @@
       "city": "Lakeland, Polk County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 11,
+      "days_ago": 12,
       "url": "https://www.google.com/search?q=Prism%20Biotech%20Sales%20Representative%20%E2%80%93%20Biotech%20Lakeland%2C%20Polk%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5772938900?utm_medium=api&utm_source=5f448b2f"
     },
@@ -68,7 +68,7 @@
       "city": "Tampa, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 11,
+      "days_ago": 13,
       "url": "https://www.google.com/search?q=Prism%20Biotech%20Biologics%20Pharma%20Sales%20Rep%20Tampa%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5772767262?utm_medium=api&utm_source=5f448b2f"
     }
