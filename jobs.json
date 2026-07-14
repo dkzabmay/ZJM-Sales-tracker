@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13 18:11 UTC",
+  "updated": "2026-07-14 16:02 UTC",
   "count": 4,
   "jobs": [
     {
@@ -8,7 +8,7 @@
       "city": "Lake Magdalene, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 10,
+      "days_ago": 11,
       "url": "https://www.google.com/search?q=Wendwell%20Health%20Advisors%20Medical%20Sales%20Representative%20Lake%20Magdalene%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5786332851?utm_medium=api&utm_source=5f448b2f"
     },
@@ -18,9 +18,9 @@
       "city": "Pinellas Park, Pinellas County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 12,
+      "days_ago": 13,
       "url": "https://www.google.com/search?q=MEDICAL%20TECHNOLOGY%20ASSOCIATES%20LLC%20Medical%20Gas%20Project%20%26%20Estimating%20Specialist%20Pinellas%20Park%2C%20Pinellas%20County%20apply",
-      "source_url": "https://www.adzuna.com/land/ad/5783190411?se=xqAOUOZ-8RG4qo4XG7jMrg&utm_medium=api&utm_source=5f448b2f&v=038EDB6BC4DE5EE306D3E97375C0D878E63BAA06"
+      "source_url": "https://www.adzuna.com/land/ad/5783190411?se=4oBMbZ1_8RGXz-OLNqe7Jw&utm_medium=api&utm_source=5f448b2f&v=038EDB6BC4DE5EE306D3E97375C0D878E63BAA06"
     },
     {
       "title": "Medical Sales Representative",
@@ -28,7 +28,7 @@
       "city": "Egypt Lake-Leto, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 12,
+      "days_ago": 13,
       "url": "https://www.google.com/search?q=Rehab%20Medical%20Medical%20Sales%20Representative%20Egypt%20Lake-Leto%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5782810338?utm_medium=api&utm_source=5f448b2f"
     },
@@ -38,7 +38,7 @@
       "city": "Largo, Pinellas County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 12,
+      "days_ago": 13,
       "url": "https://www.google.com/search?q=Audi%20Clearwater%20Automotive%20Sales%20-%20Luxury%20Brand%20Experience%20Largo%2C%20Pinellas%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5782804432?utm_medium=api&utm_source=5f448b2f"
     }
