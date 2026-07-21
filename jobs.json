@@ -1,34 +1,14 @@
 {
-  "updated": "2026-07-20 16:17 UTC",
-  "count": 6,
+  "updated": "2026-07-21 16:06 UTC",
+  "count": 4,
   "jobs": [
-    {
-      "title": "Pharmaceutical Sales - Oncology",
-      "company": "Innovativ Pharma, Inc.",
-      "city": "Sarasota, Manatee County",
-      "industry": "pharma",
-      "category": "entry",
-      "days_ago": 0,
-      "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Sales%20-%20Oncology%20Sarasota%2C%20Manatee%20County%20apply",
-      "source_url": "https://www.adzuna.com/land/ad/5807783065?se=1qLJdlaE8RGaa6qMFcW1DA&utm_medium=api&utm_source=5f448b2f&v=95AC9729EB6C646CF8D71AA82E1A0E5E18BA658B"
-    },
-    {
-      "title": "Medical Sales Rep - Entry Level",
-      "company": "Crown Medical, Inc.",
-      "city": "Tampa, Hillsborough County",
-      "industry": "pharma",
-      "category": "entry",
-      "days_ago": 0,
-      "url": "https://www.google.com/search?q=Crown%20Medical%2C%20Inc.%20Medical%20Sales%20Rep%20-%20Entry%20Level%20Tampa%2C%20Hillsborough%20County%20apply",
-      "source_url": "https://www.adzuna.com/land/ad/5807758241?se=lkUbd1aE8RGrzJaJ3knFvQ&utm_medium=api&utm_source=5f448b2f&v=43C98CA7401B6504340CF43B44DDF542319DAFE6"
-    },
     {
       "title": "Pharmaceutical Representative",
       "company": "Innovativ Pharma, Inc.",
       "city": "Clearwater, Pinellas County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 3,
+      "days_ago": 4,
       "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Representative%20Clearwater%2C%20Pinellas%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5805145110?utm_medium=api&utm_source=5f448b2f"
     },
@@ -38,7 +18,7 @@
       "city": "Lakeland, Polk County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 3,
+      "days_ago": 4,
       "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Sales%20Rep%20%28Entry%20Level%20or%20Specialty%29%20Lakeland%2C%20Polk%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5805145081?utm_medium=api&utm_source=5f448b2f"
     },
@@ -48,7 +28,7 @@
       "city": "Brandon, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 3,
+      "days_ago": 4,
       "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Sales%20Rep%20%28Entry%20Level%20or%20Specialty%29%20Brandon%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5805145077?utm_medium=api&utm_source=5f448b2f"
     },
@@ -58,7 +38,7 @@
       "city": "Sarasota, Manatee County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 3,
+      "days_ago": 4,
       "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Sales%20-%20Oncology%20Sarasota%2C%20Manatee%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5805144940?utm_medium=api&utm_source=5f448b2f"
     }
