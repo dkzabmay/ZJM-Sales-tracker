@@ -1,14 +1,24 @@
 {
-  "updated": "2026-08-27 20:56 UTC",
-  "count": 1,
+  "updated": "2026-08-28 21:19 UTC",
+  "count": 2,
   "jobs": [
+    {
+      "title": "Medical Sales Representative Part Time",
+      "company": "Superior Medical Clinics LLC",
+      "city": "Tampa, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 5,
+      "url": "https://www.google.com/search?q=Superior%20Medical%20Clinics%20LLC%20Medical%20Sales%20Representative%20Part%20Time%20Tampa%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/land/ad/5853758070?se=5tvRMSaj8RGxSf1iGXKoQA&utm_medium=api&utm_source=5f448b2f&v=A0EC3C84791C02AEFCA5F485A5E599B3F55D4F42"
+    },
     {
       "title": "Digital Top-Tier High-Ticket Sales Representative",
       "company": "Stratford Davis",
       "city": "Tampa, Hillsborough County",
       "industry": "sporting",
       "category": "entry",
-      "days_ago": 5,
+      "days_ago": 6,
       "url": "https://www.google.com/search?q=Stratford%20Davis%20Digital%20Top-Tier%20High-Ticket%20Sales%20Representative%20Tampa%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5852809483?utm_medium=api&utm_source=5f448b2f"
     }
