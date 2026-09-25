@@ -1,16 +1,546 @@
 {
-  "updated": "2026-09-24 15:45 UTC",
-  "count": 3,
+  "updated": "2026-09-25 15:46 UTC",
+  "count": 56,
   "jobs": [
+    {
+      "title": "Pharmaceutical Sales Rep",
+      "company": "Innovativ Pharma, Inc.",
+      "city": "Tampa Palms, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Sales%20Rep%20Tampa%20Palms%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/land/ad/5897780794?se=ojkzQvi48RG3jpCv9xpWmA&utm_medium=api&utm_source=5f448b2f&v=9023F50982B3017D209062CB17BC3A62CE44AEAC"
+    },
+    {
+      "title": "Pharmaceutical Sales Rep",
+      "company": "Innovativ Pharma, Inc.",
+      "city": "Cedar Hammock, Manatee County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Sales%20Rep%20Cedar%20Hammock%2C%20Manatee%20County%20apply",
+      "source_url": "https://www.adzuna.com/land/ad/5897739235?se=ojkzQvi48RG3jpCv9xpWmA&utm_medium=api&utm_source=5f448b2f&v=011F0FFEC91F33FBD41E144785D1D408BCAC0B69"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Holiday, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Holiday%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392770?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Seffner, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Seffner%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392678?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Saint Leo, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Saint%20Leo%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392579?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Jasmine Estates, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Jasmine%20Estates%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392424?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Clearwater Beach, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Clearwater%20Beach%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392224?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Safety Harbor, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Safety%20Harbor%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392217?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Pinecraft, Sarasota County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Pinecraft%2C%20Sarasota%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392189?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Zephyrhills, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Zephyrhills%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392055?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Apollo Beach, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Apollo%20Beach%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392043?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Sun City Center, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Sun%20City%20Center%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898392028?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Brandon, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Brandon%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391935?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Largo, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Largo%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391945?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Plant City, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Plant%20City%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391888?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "West Bradenton, Manatee County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20West%20Bradenton%2C%20Manatee%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391825?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Eagle Lake, Polk County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Eagle%20Lake%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391770?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Ellenton, Manatee County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Ellenton%2C%20Manatee%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391499?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Myakka City, Manatee County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Myakka%20City%2C%20Manatee%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391346?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Valrico, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Valrico%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391414?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Port Richey, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Port%20Richey%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391425?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Fort Meade, Polk County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Fort%20Meade%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391172?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Seven Springs, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Seven%20Springs%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391104?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Pinellas Park, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Pinellas%20Park%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391050?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Dunedin, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Dunedin%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391000?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Spring Hill, Hernando County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Spring%20Hill%2C%20Hernando%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898391005?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Pebble Creek, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Pebble%20Creek%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390884?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Wesley Chapel, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Wesley%20Chapel%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390627?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Polk City, Polk County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Polk%20City%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390464?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Nichols, Polk County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Nichols%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390466?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Longboat Key, Manatee County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Longboat%20Key%2C%20Manatee%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390398?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Seminole, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Seminole%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390392?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Auburndale, Polk County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Auburndale%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390278?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Brooksville, Hernando County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Brooksville%2C%20Hernando%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390199?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Land O Lakes, Pasco County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Land%20O%20Lakes%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390184?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Gibsonton, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Gibsonton%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898390183?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Lithia, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Lithia%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389857?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Dover, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Dover%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389897?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Bartow, Polk County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Bartow%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389803?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Ruskin, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Ruskin%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389782?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Belleair, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Belleair%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389745?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Pasadena, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Pasadena%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389735?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Palm Harbor, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Palm%20Harbor%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389732?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Odessa, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Odessa%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389651?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Gibsonia, Polk County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Gibsonia%2C%20Polk%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389489?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Thonotosassa, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Thonotosassa%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898389141?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Wimauma, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Wimauma%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898388860?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Oldsmar, Pinellas County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Oldsmar%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898388789?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Riverview, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Riverview%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898388698?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Rubonia, Manatee County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Rubonia%2C%20Manatee%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898388472?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Associate Medical Device Sales Representative",
+      "company": "Medical Sales College",
+      "city": "Parrish, Manatee County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Medical%20Sales%20College%20Associate%20Medical%20Device%20Sales%20Representative%20Parrish%2C%20Manatee%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5898388291?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "High-Ticket Remote Sales Representative",
+      "company": "Promoted2",
+      "city": "Wesley Chapel, Pasco County",
+      "industry": "sporting",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Promoted2%20High-Ticket%20Remote%20Sales%20Representative%20Wesley%20Chapel%2C%20Pasco%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5897668764?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Pharmaceutical Sales Rep",
+      "company": "Innovativ Pharma, Inc.",
+      "city": "Tampa, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 1,
+      "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Sales%20Rep%20Tampa%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/land/ad/5897278785?se=ojkzQvi48RG3jpCv9xpWmA&utm_medium=api&utm_source=5f448b2f&v=0F825D1C496EB104CEC2A6841008FFFB75F3F5E6"
+    },
     {
       "title": "Office Liaison",
       "company": "Airport Plaza Spine & Wellness",
       "city": "Tampa, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 0,
+      "days_ago": 1,
       "url": "https://www.google.com/search?q=Airport%20Plaza%20Spine%20%26%20Wellness%20Office%20Liaison%20Tampa%2C%20Hillsborough%20County%20apply",
-      "source_url": "https://www.adzuna.com/land/ad/5896381855?se=Vhhu6S648RGPOd9YPZETDw&utm_medium=api&utm_source=5f448b2f&v=11955A572AD7AB85F081F1C81D67FAF25D107BC5"
+      "source_url": "https://www.adzuna.com/land/ad/5896381855?se=-PTzQvi48RGCw6kuTDrJlg&utm_medium=api&utm_source=5f448b2f&v=11955A572AD7AB85F081F1C81D67FAF25D107BC5"
     },
     {
       "title": "Associate Sales Representative - Endoscopy (Orlando)",
@@ -18,7 +548,7 @@
       "city": "Tampa, Hillsborough County",
       "industry": "device",
       "category": "entry",
-      "days_ago": 1,
+      "days_ago": 2,
       "url": "https://www.google.com/search?q=Medtronic%20Associate%20Sales%20Representative%20-%20Endoscopy%20%28Orlando%29%20Tampa%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5895112627?utm_medium=api&utm_source=5f448b2f"
     },
@@ -28,7 +558,7 @@
       "city": "Tampa, Hillsborough County",
       "industry": "device",
       "category": "entry",
-      "days_ago": 8,
+      "days_ago": 9,
       "url": "https://www.google.com/search?q=Smith%20%26%20Nephew%20Inventory%20Specialist%202%20Tampa%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5885775544?utm_medium=api&utm_source=5f448b2f"
     }
