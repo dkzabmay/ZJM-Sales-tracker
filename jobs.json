@@ -1,26 +1,36 @@
 {
-  "updated": "2026-10-29 17:20 UTC",
-  "count": 3,
+  "updated": "2026-10-30 16:57 UTC",
+  "count": 4,
   "jobs": [
     {
-      "title": "Digital Top-Tier High-Ticket Sales Representative",
-      "company": "Stratford Davis",
-      "city": "Tampa, Hillsborough County",
-      "industry": "sporting",
-      "category": "entry",
-      "days_ago": 2,
-      "url": "https://www.google.com/search?q=Stratford%20Davis%20Digital%20Top-Tier%20High-Ticket%20Sales%20Representative%20Tampa%2C%20Hillsborough%20County%20apply",
-      "source_url": "https://www.adzuna.com/details/5942772464?utm_medium=api&utm_source=5f448b2f"
-    },
-    {
-      "title": "Pharmaceutical Representative",
-      "company": "Innovativ Pharma, Inc.",
-      "city": "Clearwater, Pinellas County",
+      "title": "MEDICAL DEVICE SALES REPRESENTATIVE - INSIDE SALES",
+      "company": "Palm Harbor Medical, Inc.",
+      "city": "Tarpon Springs, Pinellas County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 12,
-      "url": "https://www.google.com/search?q=Innovativ%20Pharma%2C%20Inc.%20Pharmaceutical%20Representative%20Clearwater%2C%20Pinellas%20County%20apply",
-      "source_url": "https://www.adzuna.com/land/ad/5931785054?se=fpNKEL3T8RGcTPQxVRtcow&utm_medium=api&utm_source=5f448b2f&v=5D3C342B661B50E28B8A707E8F69AA63B7A4738C"
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=Palm%20Harbor%20Medical%2C%20Inc.%20MEDICAL%20DEVICE%20SALES%20REPRESENTATIVE%20-%20INSIDE%20SALES%20Tarpon%20Springs%2C%20Pinellas%20County%20apply",
+      "source_url": "https://www.adzuna.com/land/ad/5947107320?se=cMmYAIPU8RGRQOLR_vdAhg&utm_medium=api&utm_source=5f448b2f&v=60AEF76149ED87D93287D1EEE448C59DED61E190"
+    },
+    {
+      "title": "Sales Representative - Washington D.C.",
+      "company": "FloodGate Medical",
+      "city": "Tampa, Hillsborough County",
+      "industry": "pharma",
+      "category": "entry",
+      "days_ago": 0,
+      "url": "https://www.google.com/search?q=FloodGate%20Medical%20Sales%20Representative%20-%20Washington%20D.C.%20Tampa%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5946750199?utm_medium=api&utm_source=5f448b2f"
+    },
+    {
+      "title": "Account Executive (Healthcare Sales)",
+      "company": "Concierge Home Care",
+      "city": "Brandon, Hillsborough County",
+      "industry": "pharma",
+      "category": "account",
+      "days_ago": 1,
+      "url": "https://www.google.com/search?q=Concierge%20Home%20Care%20Account%20Executive%20%28Healthcare%20Sales%29%20Brandon%2C%20Hillsborough%20County%20apply",
+      "source_url": "https://www.adzuna.com/details/5946049335?utm_medium=api&utm_source=5f448b2f"
     },
     {
       "title": "Detail Pharma Account Rep - CNS",
