@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-30 16:57 UTC",
-  "count": 4,
+  "updated": "2026-10-31 15:58 UTC",
+  "count": 3,
   "jobs": [
     {
       "title": "MEDICAL DEVICE SALES REPRESENTATIVE - INSIDE SALES",
@@ -8,9 +8,9 @@
       "city": "Tarpon Springs, Pinellas County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 0,
+      "days_ago": 1,
       "url": "https://www.google.com/search?q=Palm%20Harbor%20Medical%2C%20Inc.%20MEDICAL%20DEVICE%20SALES%20REPRESENTATIVE%20-%20INSIDE%20SALES%20Tarpon%20Springs%2C%20Pinellas%20County%20apply",
-      "source_url": "https://www.adzuna.com/land/ad/5947107320?se=cMmYAIPU8RGRQOLR_vdAhg&utm_medium=api&utm_source=5f448b2f&v=60AEF76149ED87D93287D1EEE448C59DED61E190"
+      "source_url": "https://www.adzuna.com/land/ad/5947107320?se=OGQq9UPV8RGzkfY_QG7FnA&utm_medium=api&utm_source=5f448b2f&v=60AEF76149ED87D93287D1EEE448C59DED61E190"
     },
     {
       "title": "Sales Representative - Washington D.C.",
@@ -18,7 +18,7 @@
       "city": "Tampa, Hillsborough County",
       "industry": "pharma",
       "category": "entry",
-      "days_ago": 0,
+      "days_ago": 1,
       "url": "https://www.google.com/search?q=FloodGate%20Medical%20Sales%20Representative%20-%20Washington%20D.C.%20Tampa%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5946750199?utm_medium=api&utm_source=5f448b2f"
     },
@@ -28,19 +28,9 @@
       "city": "Brandon, Hillsborough County",
       "industry": "pharma",
       "category": "account",
-      "days_ago": 1,
+      "days_ago": 2,
       "url": "https://www.google.com/search?q=Concierge%20Home%20Care%20Account%20Executive%20%28Healthcare%20Sales%29%20Brandon%2C%20Hillsborough%20County%20apply",
       "source_url": "https://www.adzuna.com/details/5946049335?utm_medium=api&utm_source=5f448b2f"
-    },
-    {
-      "title": "Detail Pharma Account Rep - CNS",
-      "company": "Prism Biotech",
-      "city": "Tampa, Hillsborough County",
-      "industry": "pharma",
-      "category": "account",
-      "days_ago": 13,
-      "url": "https://www.google.com/search?q=Prism%20Biotech%20Detail%20Pharma%20Account%20Rep%20-%20CNS%20Tampa%2C%20Hillsborough%20County%20apply",
-      "source_url": "https://www.adzuna.com/details/5931123494?utm_medium=api&utm_source=5f448b2f"
     }
   ]
 }
